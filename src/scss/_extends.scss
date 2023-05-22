@@ -1,0 +1,16 @@
+%headerHover {
+  cursor: pointer;
+  &:hover {
+    color: $green;
+    span {
+      color: $green;
+    }
+  }
+}
+
+%greenHover {
+  cursor: pointer;
+  &:hover {
+    color: black;
+  }
+}
